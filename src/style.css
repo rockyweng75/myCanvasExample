@@ -26,7 +26,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -38,9 +38,11 @@ h1 {
 
 #app {
   max-width: 1280px;
+  min-width: 500px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* padding: 2rem; */
+  /* text-align: center; */
 }
 
 .logo {
@@ -101,3 +103,4 @@ canvas{
 img{
   background-color: gainsboro;
 }
+
